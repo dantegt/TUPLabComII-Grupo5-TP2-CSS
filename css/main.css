@@ -1,0 +1,28 @@
+/* RESET DE ESTILOS */
+/* Pone todos los elementos como border-box en vez de content-box, esto hace que el tamaño de los elementos
+sean el tamaño final, sin discrepancias por padding o borders.*/
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Ademas, quita defaults como el font-weight de los titulos o los estilos de linea. */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* Y por último, hace que todas las imágenes sean responsive, controladas por el max-width */
+img {
+    max-width: 100%;
+    height: auto;
+}
