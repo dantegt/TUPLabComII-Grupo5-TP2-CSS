@@ -4,7 +4,8 @@ Proyecto HTML Pereyra Regolf para TUP Laboratorio de Programación II (Berger)
 ## Tema 2: Portafolio de equipo de desarrollo
 ### Requisitos:
 - Cabecera con nombre del equipo, logo y redes sociales
-- Menú de navegación por miembro ○ UX-UI Dev / Frontend Dev / Backend Dev
+- Menú de navegación por miembro
+  - UX-UI Dev / Frontend Dev / Backend Dev
 - Cuerpo central con proyectos realizados
 - Barra lateral con frameworks conocidos
 - Bloque de referencias laborales
