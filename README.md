@@ -34,3 +34,11 @@ Proyecto HTML Pereyra Regolf para TUP Laboratorio de Programación II (Berger)
   - Tanto el cuerpo central como las barras laterales deben funcionar como contenedores cuyos items mantienen una plantilla similar para cada caso.
   - Cada plantilla debe contener al menos tres etiquetas
     - Ej: ```<h2> <img> <p> / <img> <p> <button> / <label> <input> <button> ```
+
+![Pautas específicas - pag 1](/readme/pautas-1.jpg)
+
+
+![Pautas específicas - pag 1](/readme/pautas-2.jpg)
+
+
+![Pautas específicas - pag 1](/readme/pautas-3.jpg)
