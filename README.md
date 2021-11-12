@@ -16,6 +16,8 @@ Proyecto HTML Pereyra Regolf para TUP Laboratorio de Programación II (Berger)
 - Código comentado y organizado adecuadamente
 - Directorio del proyecto organizado
 - Páginas estáticas (sin Javascript)
+
+### Pautas específicas
 - Se debe hacer uso de las herramientas presentadas en clase:
   - Selectores (en sus diferentes formatos)
   - Iconos y fuentes adicionales
@@ -23,14 +25,12 @@ Proyecto HTML Pereyra Regolf para TUP Laboratorio de Programación II (Berger)
   - Funciones CSS (filtros, contadores, color)
   - Flexbox
   - Media queries (diseño responsivo en dos tamaños de pantalla)
-
-### Bloques
-La maqueta HTML debe contener los siguientes bloques:
-- Cabecera (Logo, titulo, redes sociales)
-- Menú de navegación (no debe ser funcional, sólo incluirlo en el diseño)
-- Cuerpo central
-- Barras laterales a ambos lados
-- Pie de página con datos del desarrollador
-- Tanto el cuerpo central como las barras laterales deben funcionar como contenedores cuyos items mantienen una plantilla similar para cada caso.
-- Cada plantilla debe contener al menos tres etiquetas
-	- Ej: ```<h2> <img> <p> / <img> <p> <button> / <label> <input> <button> ```
+- La maqueta HTML debe contener los siguientes bloques:
+  - Cabecera (Logo, titulo, redes sociales)
+  - Menú de navegación (no debe ser funcional, sólo incluirlo en el diseño)
+  - Cuerpo central
+  - Barras laterales a ambos lados
+  - Pie de página con datos del desarrollador
+  - Tanto el cuerpo central como las barras laterales deben funcionar como contenedores cuyos items mantienen una plantilla similar para cada caso.
+  - Cada plantilla debe contener al menos tres etiquetas
+    - Ej: ```<h2> <img> <p> / <img> <p> <button> / <label> <input> <button> ```
