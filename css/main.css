@@ -26,3 +26,67 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+#top {
+    background-color: rgb(0, 151, 136);
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu {
+    background-color: rgb(255, 169, 69);
+    padding: 0px;
+    margin: 0px;
+}
+
+#principal {
+    background-color: rgb(251, 255, 0);
+    padding: 0px;
+    margin: 0px;
+}
+
+#tecnologia {
+    background-color: rgb(109, 158, 235);
+    float: left;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tcn{
+    background-color: rgb(173, 173, 173);
+    height: 30px;
+    margin: 10px;
+}
+
+#proyectos {
+    background-color: rgb(16, 85, 204);
+    float: left;
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pry{
+    background-color: rgb(173, 173, 173);
+    height: 30px;
+    margin: 10px;
+}
+
+#clientes {
+    background-color: rgb(109, 158, 235);
+    float: left;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cln{
+    background-color: rgb(173, 173, 173);
+    height: 30px;
+    margin: 10px;
+}
+
+#contacto {
+    background-color: rgb(0, 151, 136);
+}
