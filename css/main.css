@@ -43,13 +43,13 @@ header {
     max-height: 4em;
 }
 
-.menu ul {
+#menu ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.menu ul li {
+#menu ul li {
     padding: 1em;
     border-top: 1px solid #01d78d;
 }
@@ -62,3 +62,60 @@ a:visited {
     color: #ff9e07;
 }
 
+#top {
+    background-color: rgb(0, 151, 136);
+    padding: 0px;
+    margin: 0px;
+}
+
+#principal {
+    background-color: rgb(251, 255, 0);
+    padding: 0px;
+    margin: 0px;
+}
+
+#frameworks {
+    background-color: rgb(109, 158, 235);
+    float: left;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.framework {
+    background-color: rgb(173, 173, 173);
+    height: 30px;
+    margin: 10px;
+}
+
+#proyectos {
+    background-color: rgb(16, 85, 204);
+    float: left;
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.proyecto {
+    background-color: rgb(173, 173, 173);
+    height: 30px;
+    margin: 10px;
+}
+
+#referencias {
+    background-color: rgb(109, 158, 235);
+    float: left;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.referencia {
+    background-color: rgb(173, 173, 173);
+    height: 30px;
+    margin: 10px;
+}
+
+.footer {
+    background-color: rgb(0, 151, 136);
+}
