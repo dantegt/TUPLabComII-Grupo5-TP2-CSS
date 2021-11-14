@@ -26,3 +26,39 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* ESTRUCTURA */
+body {
+    margin: 1em;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    max-height: 4em;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    padding: 1em;
+    border-top: 1px solid #01d78d;
+}
+
+a, a:hover {
+    color: #02d890;
+}
+
+a:visited {
+    color: #ff9e07;
+}
+
