@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Regular.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff')  format('woff');
+  }
+
 /* RESET DE ESTILOS */
 /* Pone todos los elementos como border-box en vez de content-box, esto hace que el tamaño de los elementos
 sean el tamaño final, sin discrepancias por padding o borders.*/
@@ -12,6 +22,7 @@ html {
 
 /* Ademas, quita defaults como el font-weight de los titulos o los estilos de linea. */
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    font-family: 'Ubuntu', Fallback, sans-serif;
     margin: 0;
     padding: 0;
     font-weight: normal;
@@ -38,12 +49,16 @@ img {
 /* ESTRUCTURA */
 body {
     margin: 1em;
-    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
     display: flex;
     align-items: center;
+}
+
+header .subtitle{
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 .logo {
@@ -81,7 +96,16 @@ header {
 
 #menu ul li {
     padding: 1em;
-    border-top: 1px solid #01d78d;
+}
+
+#menu a, a:hover {
+    color: #02d890;
+    text-decoration: none;
+}
+
+#menu a:visited {
+    color: #ff9e07;
+    text-decoration: none;
 }
 
 a, a:hover {
@@ -147,7 +171,6 @@ a:visited {
     border-radius: 30px;
     max-width: 350px;
 }
-
 .proyecto img:hover {
     filter: sepia(0);
     border-radius: 0 30px;
@@ -301,4 +324,5 @@ a.chat-online {
         max-width: 100%;
         margin-top: 2em;
     }
+}
 }
