@@ -78,15 +78,15 @@ header .subtitle{
 }
 
 .social-link.twitter {
-    background-image: url('/images/icn_twitter.png');
+    background-image: url('../images/icn_twitter.png');
 }
 
 .social-link.github {
-    background-image: url('/images/icn_github.png');
+    background-image: url('../images/icn_github.png');
 }
 
 .social-link.linkedin {
-    background-image: url('/images/icn_linkedin.png');
+    background-image: url('../images/icn_linkedin.png');
 }
 
 #menu ul {
