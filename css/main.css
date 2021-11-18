@@ -59,6 +59,7 @@ header {
 header .subtitle{
     font-size: xx-large;
     font-weight: bold;
+    color: #15d89c;
 }
 
 .logo {
@@ -90,12 +91,13 @@ header .subtitle{
 
 #menu ul {
     display: flex;
-    justify-content: center;
+    margin-left: 167px;
     align-items: center;
 }
 
 #menu ul li {
     padding: 1em;
+    border-top: 1px solid #fe9e07;
 }
 
 #menu a, a:hover {
@@ -178,6 +180,7 @@ a:visited {
 
 .proyecto-title {
     font-size: 1.5em;
+    line-height: 2em;
     font-weight: 800;
     color: #6e00d9;
     text-shadow: 1px 1px #fff, 2px 2px #903ee0;
@@ -267,9 +270,17 @@ a.chat-online {
 /* MEDIA QUERIES: Mobile */
 @media (max-width: 900px) {
 
+    .logo {
+        max-height: 3em;
+    }
+
     .social-link {
         height: 30px;
         width: 30px;
+    }
+
+    #menu ul {
+        margin-left: 114px;
     }
 
     #contenedor-proyectos {
@@ -293,8 +304,19 @@ a.chat-online {
         align-items: center;
         justify-content: end;
     }
+    
     .footer {
         flex-direction: column;
+    }
+
+    .footer-text {
+        margin: 2em;
+    }
+    
+    
+
+    header .subtitle {
+        font-size: unset;
     }
 }
 
@@ -312,6 +334,10 @@ a.chat-online {
         width: 100%
     }
 
+    .framework { 
+        width: 40px;
+    }
+
     .proyecto {
         flex:content;
     }
@@ -324,5 +350,10 @@ a.chat-online {
         max-width: 100%;
         margin-top: 2em;
     }
-}
+
+    #menu ul {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+
 }
