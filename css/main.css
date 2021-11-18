@@ -2,11 +2,12 @@
     font-family: 'Ubuntu';
     src: url('../fonts/Ubuntu-Regular.ttf')  format('truetype');
   }
-
+  
   @font-face {
-    font-family: 'Lato';
-    src: url('../fonts/Lato-Regular.woff')  format('woff');
+    font-family: 'RoadRage';
+    src: url('../fonts/RoadRageBIS-Regular.ttf')  format('truetype');
   }
+
 /* RESET DE ESTILOS */
 /* Pone todos los elementos como border-box en vez de content-box, esto hace que el tamaño de los elementos
 sean el tamaño final, sin discrepancias por padding o borders.*/
@@ -178,9 +179,10 @@ a:visited {
 }
 
 .proyecto-title {
-    font-size: 1.5em;
-    line-height: 2em;
-    font-weight: 800;
+    font-family: 'RoadRage', Fallback, sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+    font-weight: 400;
     color: #6e00d9;
     text-shadow: 1px 1px #fff, 2px 2px #903ee0;
 }
