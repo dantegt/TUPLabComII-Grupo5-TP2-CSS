@@ -7,7 +7,6 @@
     font-family: 'Lato';
     src: url('../fonts/Lato-Regular.woff')  format('woff');
   }
-
 /* RESET DE ESTILOS */
 /* Pone todos los elementos como border-box en vez de content-box, esto hace que el tamaño de los elementos
 sean el tamaño final, sin discrepancias por padding o borders.*/
