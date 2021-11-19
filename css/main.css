@@ -141,10 +141,11 @@ a:visited {
 
 #frameworks {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .framework {
-    width: 70px;
     justify-content: center;
     flex-direction: column;
     margin: 10px;
@@ -294,9 +295,13 @@ a.chat-online {
     }
 
     #frameworks {
-        display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+    }
+
+    .framework {
+        width: 70px;
     }
 
     #referencias {
@@ -355,6 +360,7 @@ a.chat-online {
     #menu ul {
         margin-left: 0;
         margin-top: 1em;
+        justify-content: center;
     }
 
 }
